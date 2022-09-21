@@ -2,7 +2,7 @@ angular.module('app').factory('ConfigService', [function() {
 
     var service = {};
 
-    service.apiBase = 'http://localhost:8001/';
+    service.apiBase = 'https://quiz-api-sw.us-west-2.elasticbeanstalk.com/quiz';
 
     return service;
 }]);
